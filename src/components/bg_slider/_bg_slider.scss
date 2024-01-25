@@ -1,0 +1,46 @@
+.v_slider {
+    // border: 2px solid orange;
+
+    .slide_track_wrap {
+        // border: 2px solid teal;
+
+        .slide_track {
+            // border: 2px solid blue;
+            width: fit-content;
+            height: calc(250px * 18);
+            animation: scroll 40s linear infinite;
+
+            @keyframes scroll {
+                0% {
+                    transform: translateY(0);
+                }
+
+                100% {
+                    transform: translateY(-250px * 9);
+                }
+            }
+
+            .slide {
+                width: 250px;
+                display: flex;
+                align-items: center;
+                margin: 1rem;
+
+                img {
+                    // width: 100%;
+                    min-height: 100%;
+
+                }
+            }
+        }
+    }
+
+}
+
+.overlay{
+    // border: 2px solid teal;
+
+    h4{
+        font-family: $sec_font !important;
+    }
+}

@@ -1,0 +1,22 @@
+.signin {
+    // border: 2px solid red;
+    
+    .signup_form{
+        // border: 2px solid green !important;
+
+        .input_bg{
+            /* From https://css.glass */
+            border: 1px solid rgba(192, 192, 192, 0.575) !important;
+            background: rgba(255, 255, 255, 0);
+            border-radius: 10px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6.3px);
+            -webkit-backdrop-filter: blur(6.3px);
+        }
+
+        .input_bg:focus{
+            border-color: #fff !important;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
